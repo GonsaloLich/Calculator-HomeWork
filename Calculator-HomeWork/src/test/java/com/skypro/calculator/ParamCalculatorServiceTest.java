@@ -22,7 +22,8 @@ class ParamCalculatorServiceTest {
                Arguments.of(-1, -2),
                Arguments.of(0, 2),
                Arguments.of(1, 0),
-               Arguments.of(0, -2));
+               Arguments.of(0, -2),
+               Arguments.of(5, 5));
    }
 
    @ParameterizedTest
